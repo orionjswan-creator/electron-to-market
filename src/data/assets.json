@@ -1,0 +1,8 @@
+[
+  { "id": "nuclear", "name": "Nuclear", "capacityMw": 2000, "role": "Baseload", "condition": 8, "eforRisk": "Low", "derateRisk": "Low" },
+  { "id": "coal", "name": "Coal", "capacityMw": 2500, "role": "Dispatchable", "condition": 6, "eforRisk": "Medium", "derateRisk": "Medium" },
+  { "id": "gas", "name": "Natural Gas", "capacityMw": 2000, "role": "Flexible / Peaking", "condition": 7, "eforRisk": "Medium-Low", "derateRisk": "Medium" },
+  { "id": "renewables", "name": "Renewables", "capacityMw": 1500, "role": "Variable", "condition": 7, "eforRisk": "Medium-Low", "derateRisk": "Weather" },
+  { "id": "hydro", "name": "Hydro", "capacityMw": 500, "role": "Flexible", "condition": 8, "eforRisk": "Low", "derateRisk": "Water" },
+  { "id": "td", "name": "T&D / Grid", "capacityMw": 0, "role": "Delivery", "condition": 6, "eforRisk": "Medium", "derateRisk": "Storm" }
+]

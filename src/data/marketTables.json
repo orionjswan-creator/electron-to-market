@@ -1,0 +1,32 @@
+{
+  "market": [
+    { "roll": 1, "label": "Low Price", "price": 30 },
+    { "roll": 2, "label": "Soft Market", "price": 40 },
+    { "roll": 3, "label": "Normal Market", "price": 50 },
+    { "roll": 4, "label": "Strong Market", "price": 70 },
+    { "roll": 5, "label": "Scarcity", "price": 100 },
+    { "roll": 6, "label": "Extreme Scarcity", "price": 150 }
+  ],
+  "demand": [
+    { "roll": 1, "label": "Very Low", "demandMw": 5500 },
+    { "roll": 2, "label": "Low", "demandMw": 6000 },
+    { "roll": 3, "label": "Normal", "demandMw": 6500 },
+    { "roll": 4, "label": "High", "demandMw": 7000 },
+    { "roll": 5, "label": "Very High", "demandMw": 8000 },
+    { "roll": 6, "label": "Extreme", "demandMw": 9000 }
+  ],
+  "coal": [
+    { "roll": 1, "cost": 20 }, { "roll": 2, "cost": 25 }, { "roll": 3, "cost": 30 },
+    { "roll": 4, "cost": 35 }, { "roll": 5, "cost": 45 }, { "roll": 6, "cost": 60 }
+  ],
+  "gas": [
+    { "roll": 1, "cost": 25 }, { "roll": 2, "cost": 35 }, { "roll": 3, "cost": 45 },
+    { "roll": 4, "cost": 60 }, { "roll": 5, "cost": 90 }, { "roll": 6, "cost": 140 }
+  ],
+  "hydro": [
+    { "rolls": [1], "label": "Drought", "availableMw": 100 },
+    { "rolls": [2], "label": "Low Water", "availableMw": 250 },
+    { "rolls": [3, 4], "label": "Normal", "availableMw": 400 },
+    { "rolls": [5, 6], "label": "Strong Water", "availableMw": 500 }
+  ]
+}

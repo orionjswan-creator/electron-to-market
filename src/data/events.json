@@ -1,0 +1,14 @@
+[
+  { "id": "heatDome", "name": "Heat Dome", "effect": "Demand +500 MW, Market Trend +1; grid hardening protects customers." },
+  { "id": "polarVortex", "name": "Polar Vortex", "effect": "Demand +500 MW, gas constraint risk, Market Trend +1." },
+  { "id": "dataCenterGrowth", "name": "Data Center Growth", "effect": "Permanent demand +500 MW, Market Trend +1; interconnect creates profit opportunity." },
+  { "id": "gasPipelineConstraint", "name": "Gas Pipeline Constraint", "effect": "Without firm transport, gas derates 700 MW and Profit -$30M." },
+  { "id": "coalSupplyDisruption", "name": "Coal Supply Disruption", "effect": "Without extra inventory, coal derates 500 MW and Profit -$20M." },
+  { "id": "derecho", "name": "Thunderstorm / Derecho", "effect": "T&D storm event; weak grid spend hurts reliability and profit." },
+  { "id": "mildWeather", "name": "Mild Weather", "effect": "Demand -500 MW, Market Trend -1, Customer Impact +1." },
+  { "id": "efficiency", "name": "Energy Efficiency Program", "effect": "Permanent demand -200 MW, Customer Impact +1, Market Trend -1." },
+  { "id": "environment", "name": "Environmental Compliance Issue", "effect": "Coal environmental work avoids derate and Profit -$40M." },
+  { "id": "forecastMiss", "name": "Forecast Miss", "effect": "Forecasting tools avoid Reliability -1 and Customer Impact -1." },
+  { "id": "strongRenewables", "name": "Strong Renewable Output", "effect": "Renewables payment +$25M, Customer Impact +1." },
+  { "id": "curtailment", "name": "Renewable Curtailment", "effect": "Renewables payment only +$5M; storage mitigates." }
+]

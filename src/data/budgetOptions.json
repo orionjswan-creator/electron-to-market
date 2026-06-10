@@ -1,0 +1,42 @@
+{
+  "nuclear": [
+    { "id": "min", "name": "Minimum Spend", "cost": 10, "efor": "Medium", "effect": "EFOR becomes Medium" },
+    { "id": "standard", "name": "Standard Maintenance", "cost": 25, "efor": "Low", "effect": "EFOR stays Low" },
+    { "id": "enhanced", "name": "Enhanced Outage Work", "cost": 40, "efor": "Low", "effect": "Low EFOR; +200 MW next stress season" },
+    { "id": "defer", "name": "Defer Work", "cost": 0, "efor": "High", "effect": "EFOR becomes High" }
+  ],
+  "coal": [
+    { "id": "min", "name": "Minimum Maintenance", "cost": 15, "efor": "Medium", "effect": "EFOR Medium" },
+    { "id": "standard", "name": "Standard Maintenance", "cost": 30, "efor": "Medium-Low", "effect": "EFOR Medium-Low" },
+    { "id": "boiler", "name": "Boiler Reliability Work", "cost": 45, "efor": "Low", "effect": "EFOR Low" },
+    { "id": "environmental", "name": "Environmental Work", "cost": 25, "efor": "Medium", "effect": "Avoid compliance derate" },
+    { "id": "defer", "name": "Defer Work", "cost": 0, "efor": "High", "effect": "EFOR High" }
+  ],
+  "gas": [
+    { "id": "min", "name": "Minimum Maintenance", "cost": 10, "efor": "Medium", "effect": "EFOR Medium" },
+    { "id": "standard", "name": "Standard Maintenance", "cost": 20, "efor": "Medium-Low", "effect": "EFOR Medium-Low" },
+    { "id": "major", "name": "Major Work / Hot Gas Path", "cost": 35, "efor": "Low", "effect": "EFOR Low" },
+    { "id": "flex", "name": "Flexibility Upgrade", "cost": 25, "efor": "Medium-Low", "effect": "Extra value in high-price market" },
+    { "id": "defer", "name": "Defer Work", "cost": 0, "efor": "High", "effect": "EFOR High" }
+  ],
+  "renewables": [
+    { "id": "min", "name": "Minimum Maintenance", "cost": 5, "efor": "Medium", "effect": "Weather underperformance risk" },
+    { "id": "standard", "name": "Standard Maintenance", "cost": 15, "efor": "Medium-Low", "effect": "Normal availability" },
+    { "id": "forecasting", "name": "Forecasting Tools", "cost": 20, "efor": "Medium-Low", "effect": "Avoid forecast miss penalty" },
+    { "id": "storage", "name": "Storage Support", "cost": 50, "efor": "Low", "effect": "Add 300 MW during peak" },
+    { "id": "defer", "name": "Defer Work", "cost": 0, "efor": "High", "effect": "Derate risk increases" }
+  ],
+  "hydro": [
+    { "id": "min", "name": "Minimum Maintenance", "cost": 5, "efor": "Medium", "effect": "EFOR Medium" },
+    { "id": "standard", "name": "Standard Maintenance", "cost": 12, "efor": "Low", "effect": "EFOR Low" },
+    { "id": "dam", "name": "Dam/Gate Reliability Work", "cost": 25, "efor": "Low", "effect": "Avoid hydro outage" },
+    { "id": "defer", "name": "Defer Work", "cost": 0, "efor": "High", "effect": "EFOR High" }
+  ],
+  "td": [
+    { "id": "min", "name": "Minimum Spend", "cost": 20, "efor": "Medium", "effect": "Storm penalty likely" },
+    { "id": "standard", "name": "Standard Reliability Work", "cost": 40, "efor": "Medium-Low", "effect": "Normal storm response" },
+    { "id": "hardening", "name": "Grid Hardening", "cost": 70, "efor": "Low", "effect": "Avoid major storm penalty" },
+    { "id": "datacenter", "name": "Data Center Interconnect", "cost": 60, "efor": "Medium-Low", "effect": "Future demand/profit opportunity" },
+    { "id": "defer", "name": "Defer Work", "cost": 0, "efor": "High", "effect": "Reliability risk increases" }
+  ]
+}

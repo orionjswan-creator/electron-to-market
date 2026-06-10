@@ -1,0 +1,8 @@
+node_modules
+dist
+.vite
+*.local
+.claude/
+edge-profile*/
+.DS_Store
+Thumbs.db

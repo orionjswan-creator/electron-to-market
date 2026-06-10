@@ -1,0 +1,5 @@
+[
+  { "id": "conservative", "name": "Conservative", "capacityMultiplier": 0.9, "outageRollModifier": -1, "effect": "-10% available MW; outage roll improves by 1" },
+  { "id": "normal", "name": "Normal", "capacityMultiplier": 1, "outageRollModifier": 0, "effect": "No change" },
+  { "id": "aggressive", "name": "Aggressive", "capacityMultiplier": 1.1, "outageRollModifier": 1, "effect": "+10% available MW; outage roll worsens by 1" }
+]

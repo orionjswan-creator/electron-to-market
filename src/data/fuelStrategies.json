@@ -1,0 +1,15 @@
+{
+  "coal": [
+    { "id": "spot", "name": "Spot Coal", "cost": 0, "effect": "Pay rolled coal price" },
+    { "id": "half", "name": "50% Contracted", "cost": 10, "effect": "Half coal fuel fixed at $32/MWh" },
+    { "id": "full", "name": "100% Contracted", "cost": 20, "effect": "Coal fuel fixed at $35/MWh" },
+    { "id": "inventory", "name": "Extra Coal Inventory", "cost": 15, "effect": "Avoid one coal supply shock" }
+  ],
+  "gas": [
+    { "id": "spot", "name": "Spot Gas", "cost": 0, "effect": "Pay rolled gas price" },
+    { "id": "half", "name": "50% Contracted", "cost": 15, "effect": "Half gas fixed at $50/MWh" },
+    { "id": "full", "name": "100% Contracted", "cost": 30, "effect": "Gas fixed at $55/MWh" },
+    { "id": "hedge", "name": "Financial Hedge", "cost": 15, "effect": "Caps gas price at $70/MWh" },
+    { "id": "transport", "name": "Firm Transport", "cost": 20, "effect": "Avoids one gas constraint event" }
+  ]
+}

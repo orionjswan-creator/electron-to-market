@@ -1,0 +1,9 @@
+{
+  "marketMargin": { "30": 0, "40": 5, "50": 10, "70": 20, "100": 40, "150": 75 },
+  "emergencyPurchases": [
+    { "min": 1, "max": 500, "penalty": 25 },
+    { "min": 501, "max": 1000, "penalty": 75 },
+    { "min": 1001, "max": 1500, "penalty": 150 },
+    { "min": 1501, "max": 99999, "penalty": 250 }
+  ]
+}

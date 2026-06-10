@@ -1,0 +1,11 @@
+[
+  { "id": "none", "name": "No Capital Project", "cost": 0, "effect": "Preserve budget flexibility." },
+  { "id": "coalReliability", "name": "Coal Reliability Project", "cost": 75, "effect": "Coal EFOR improves one level." },
+  { "id": "gasTransport", "name": "Gas Firm Transport Package", "cost": 60, "effect": "Avoid gas constraint event." },
+  { "id": "nuclearExcellence", "name": "Nuclear Outage Excellence", "cost": 80, "effect": "Avoid one nuclear outage extension." },
+  { "id": "renewableStorage", "name": "Renewable Storage Project", "cost": 100, "effect": "Add 300 MW during peak." },
+  { "id": "hydroModernization", "name": "Hydro Modernization", "cost": 50, "effect": "Hydro EFOR Low for rest of game." },
+  { "id": "gridHardening", "name": "Grid Hardening", "cost": 100, "effect": "Avoid one storm/T&D event." },
+  { "id": "forecastingTools", "name": "Forecasting / Dispatch Tools", "cost": 40, "effect": "Demand and renewable forecast risk improves." },
+  { "id": "dataCenterInterconnect", "name": "Data Center Interconnect", "cost": 120, "effect": "Future demand/profit opportunity." }
+]

@@ -1,0 +1,6 @@
+[
+  { "name": "Spring", "budget": 100 },
+  { "name": "Summer", "budget": 150 },
+  { "name": "Fall", "budget": 100 },
+  { "name": "Winter", "budget": 150 }
+]
